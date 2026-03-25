@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database
+db.sqlite
+*.db
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dist/Build
+dist/
+build/
+.parcel-cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*

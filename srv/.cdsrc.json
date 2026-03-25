@@ -1,0 +1,10 @@
+{
+    "[development]": {
+        "requies": {
+            "db": {
+                "database": ":memory"
+            },
+            "kind": "sqlite"
+        }
+    }
+}

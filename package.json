@@ -1,0 +1,35 @@
+{
+  "name": "sales-order-backend",
+  "version": "1.0.0",
+  "description": "Sales Order Backend Application",
+  "repository": "https://github.com/Cristiano-cyber/sales-order-backend.git",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^7",
+    "git-commit-msg-linter": "^5.0.8",
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch",
+    "build": "cds build",
+    "deploy": "cds deploy",
+    "test": "jest"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": [
+          "db",
+          "srv"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "odata": {
+    "version": "v4"
+  },
+  "features": {
+    "inferred": true
+  },
+  "requires": {
+    "db": {
+      "kind": "sqlite",
+      "model": [
+        "db",
+        "srv"
+      ]
+    }
+  }
+}
