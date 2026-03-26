@@ -1,4 +1,15 @@
-namespace sales.order;
+using { managed } from '@sap/cds/common';
+
+namespace sales;
+
+entity SalesOrderHeaders: managed {
+  key id: UUID;
+}
+
+
+
+
+/* namespace sales.order;
 
 using { cuid, managed } from '@sap/cds/common';
 
@@ -23,3 +34,5 @@ entity SalesOrderItems : cuid {
   unitPrice    : Decimal(10,2);
   totalPrice   : Decimal(15,2);
 }
+
+*/
